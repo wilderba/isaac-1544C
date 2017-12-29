@@ -1,0 +1,14 @@
+<items gfxroot="gfx/items/" version="1">
+	<passive cache="firedelay" name="Gyromatic Stabilizer" description="Slow and steady" gfx="gyro.png"/>
+	<passive  name="Spare Battery" description="A little extra juice" gfx="battery_spare.png"/>
+	<passive  name="Backup Battery" description="For when you really need it" gfx="battery_backup.png"/>
+	<passive  name="Overdrive Cell" description="Running on empty" gfx="battery_overdrive_cell.png"/>
+	<passive  name="Powerpack" description="Fully charged!" gfx="battery_powerpack.png"/>
+	<passive  name="Extra Battery" description="Comes with an extra!" gfx="battery_surge_charger.png"/>
+	<active name="Energizer" description="Amp it up!" gfx="energizer.png" maxcharges="3"/>
+	<active name="Don't Hickey" description="Is it supposed to do... something?" gfx="energizer.png" maxcharges="12"/>
+	<active name="Fabricator" description="Do it yourself" gfx="energizer.png" maxcharges="12" discharged="true"/>
+	<active name="Technology Proto" description="Straight from the source" gfx="energizer.png" maxcharges="6"/>
+	<active name="Upgrade!" description="Harder better faster stronger" gfx="upgrade.png" maxcharges="6"/>
+	<active name="Overclocker" description="Hope you know what you're doing" gfx="overclocker.png" maxcharges="2"/>
+</items>
